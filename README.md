@@ -1,6 +1,6 @@
 # WEATHER WEB APP
 
-[Overview](#overview) · [Prerequisites](#prerequisites) · [Start the application](#start-the-application)
+[Overview](#overview) ·  [LIVE DEMO](https://weather-app-challenge.web.app/) · [Prerequisites](#prerequisites)  · [Start the application](#start-the-application)
 
 ## Overview
 
