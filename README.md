@@ -1,6 +1,6 @@
 # WEATHER WEB APP
 
-[Overview](#overview) · [Prerequisites](#prerequisites) · [Start the server](#start-the-aplication)
+[Overview](#overview) · [Prerequisites](#prerequisites) · [Start the application](#start-the-application)
 
 ## Overview
 
