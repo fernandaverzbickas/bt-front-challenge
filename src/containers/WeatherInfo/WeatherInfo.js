@@ -20,7 +20,7 @@ const WeatherInfo = props => {
 
   async function fetchData() {
     const res = await fetch(
-      "http://api.openweathermap.org/data/2.5/forecast?lat=" +
+      "https://api.openweathermap.org/data/2.5/forecast?lat=" +
         latitude +
         "&lon=" +
         longitude +
@@ -112,15 +112,15 @@ const WeatherInfo = props => {
               </div>
             ))}
           </div>
+          <h1>WEEKLY FORECAST</h1>
+          <NextDaysForecast
+            data={cityWeatherInfo.forecasts}
+            key={cityWeatherInfo.id + "next"}
+          />
         </div>
       ) : (
         <div>{hasError ? <p>hasError</p> : <p>Loading...</p>}</div>
       )}
-      <h1>WEEKLY FORECAST</h1>
-      <NextDaysForecast
-        data={cityWeatherInfo.forecasts}
-        key={cityWeatherInfo.id + "next"}
-      />
     </div>
   );
 };
