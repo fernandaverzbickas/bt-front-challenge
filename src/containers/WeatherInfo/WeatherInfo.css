@@ -1,0 +1,47 @@
+.CityContainer {
+  padding-top: 0.5rem;
+  border: none;
+  margin: 5% auto;
+  width: 90%;
+  color: white;
+}
+
+.Forecasts {
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 0.8rem;
+  color: white;
+  background-color: #aed6f1;
+  margin: 2%;
+  justify-content: space-around;
+}
+
+.Forecast {
+  border: 1px solid white;
+  padding: 2px;
+  margin: 5px;
+  width: 40%;
+}
+
+.Forecast:hover {
+  font-weight: bold;
+}
+
+.Title {
+  font-size: 2rem;
+}
+
+@media (min-width: 500px) {
+  .Forecast {
+    width: 25%;
+  }
+  .Title {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .Forecast {
+    width: 12%;
+  }
+}
